@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container } from '@material-ui/core';
 import GoogleMapReact from 'google-map-react';
-// import Map from './Map'
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>
 

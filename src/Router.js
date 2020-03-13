@@ -30,10 +30,9 @@ const ProtectedRoute = ({component: Component, ...rest}) => {
 const Router = () => {
     return (
         <Switch>
-            <Route exact path="/"  />
             <Route path="/listing" component={Listing}/>
             <Route path='/login' component={Login} />
-            <ProtectedRoute path= '/business/:id' component={Business}/>
+            <Route path= '/business/:id' component={Business}/>
             <ProtectedRoute path= '/AddBusiness' component={AddBusiness}/>
         </Switch>
     );
